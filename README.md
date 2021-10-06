@@ -1,5 +1,5 @@
 # Automated-Word-document-with-python
-I did this as a hobby, the idea in the future is to customize the styles selections using a GUI
+I did this as a hobby, the idea in the future is to customize the styles using a GUI
 
 Automate your docx files by modifying the toDo.txt and customize the style by modifying the dictionary in functions.py
 
