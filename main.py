@@ -1,8 +1,8 @@
 import docx
-from functions import *
+from modules.functions import *
 import os
 import re
-from IOFunctions import *
+from modules.IOFunctions import *
 todo_filename='toDo.txt'
 filename='labs.docx'
 
