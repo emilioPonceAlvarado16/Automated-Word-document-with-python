@@ -1,0 +1,23 @@
+/sb objetivos/
+/no /
+/li • Familiarizarse con los diferentes tipos de memorias../
+/li • Aprender a programar un sistema embebido utilizando adecuadamente su memoria no volátil./
+/li • Conocer las características principales de las memorias EEPROM./
+/sb Pasos/
+/li • Abrir Proteus./
+/li • Abrir el módulo a usar./
+/li • Editar el código fuente./
+/li • Usar la librería EEPROM necesaria para escribir en la memoria EEPROM./
+/sb Código /
+/no Para visualizar la memoria que está por detrás se pueden usar estas herramientas/
+/no Con put podemos ingresar la información enviandola como parámetro y también con read podemos leer la información en dicha dirección de memoria./
+/no Con calloc nos permite reservar espacios de memoria inicializados./
+/sb Desafío/
+/no En el documento no especifíca qué números debe ingresar, tampoco restringue que sea aleatorio, por ello usé el botón como un contador./
+/sb Conclusiones y recomendaciones/
+/no /
+/li • La ventaja de usar put y read, es que puede escribir o leer números flotantes./
+/li • Ver los pines del arduino para realizar el desafío correctamente./
+/li • Analizar los espacíos de memoria que ocupan cada variable, con las herramientas de debugging/
+/li • Se pude comprobar que la arquitectura era de little endian./
+/li • Si se escribe en una variable que ya existe información en el EEPROM, se sobreescribe o se trunca dependiendo de los tipos de dato./
