@@ -35,6 +35,6 @@ def hacer_word(filename,todo_filename):
             write(doc, match[0], instruccion[3:], filename)
 
     doc.save(filename)
-    print("HECHO! ")
+    print("Done! ")
 
 hacer_word(filename, todo_filename)

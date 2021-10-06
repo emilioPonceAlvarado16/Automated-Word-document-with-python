@@ -19,6 +19,6 @@ Modify the dictionary in fuctions.py
 - /sb this is a subtitle. /
 - /ch this a image title. / 
 - /no this is a paragraph. /
-
+- /im image_filename_without_extension /
 
 
