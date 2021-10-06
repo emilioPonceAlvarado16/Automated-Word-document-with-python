@@ -4,7 +4,7 @@ I did this as a hobby, the idea in the future is to customize the styles using a
 Automate your docx files by modifying the toDo.txt and customize the style by modifying the dictionary in functions.py
 
 ### Install python docx library
-$pip3 install python-docx
+$ pip3 install python-docx
 
 ### Run this program!
 $ python3 main.py
