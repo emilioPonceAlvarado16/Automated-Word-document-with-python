@@ -14,11 +14,11 @@ Modify the dictionary in fuctions.py
 
 ### Content is included in toDo.txt as a list of "Instructions"
 
-1. /ti this is a title. /
-2. /li this is a literal. /
-3. /sb this is a subtitle. /
-4. /ch this a image title. / 
-5. /no this is a paragraph. /
+- /ti this is a title. /
+- /li this is a literal. /
+- /sb this is a subtitle. /
+- /ch this a image title. / 
+- /no this is a paragraph. /
 
 
 
