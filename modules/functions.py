@@ -117,6 +117,13 @@ dic={
 }
 
 def image_tuple_generator(lista):
+    '''
+    This function generates a tuple of images
+    :param lista:list of image file names
+   
+
+
+    '''
     image_list=[]
     dic={}
     for i in lista:
@@ -135,6 +142,14 @@ def image_tuple_generator(lista):
 
 
 def add_image(doc,imagename):
+    '''
+    This function will add a image to the doc
+    :param doc: doc instance
+    :param imagename:image filename
+   
+
+
+    '''
 
     mi=doc.add_picture(imagename)
     last=doc.paragraphs[-1]
@@ -142,11 +157,19 @@ def add_image(doc,imagename):
     last.alignment=WD_PARAGRAPH_ALIGNMENT.CENTER
 
 
-def identifica_run(string):
-    pass
 
 
 def write(doc, type,text,filename):
+    '''
+    This function will write a single instrucction to the doc file
+    :param doc:doc instance
+    :param type:type of instruccion
+    :param text:text that will be added
+    :param filename: the name of the docx file
+   
+
+
+    '''
 
 
     tam=int(dic[type]["size"])
