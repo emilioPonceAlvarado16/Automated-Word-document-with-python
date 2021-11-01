@@ -7,8 +7,17 @@ todo_filename='toDo.txt'
 filename='labs.docx'
 
 
-def images_section(tuple,grupo,doc,filename):
-    for key in grupo:
+def images_section(tuple,group,doc,filename):
+    '''
+    This function will add a single image according to the instrucction
+    :param tuple:tuple of all images 
+    :param group: group of images
+    :param doc: the instance of the python-docx
+    :param filename: document file name
+
+
+    '''
+    for key in group:
         value=tuple[int(key)-1][1]
 
         imagename=str(key)+" "+str(value)+".png"
@@ -17,7 +26,13 @@ def images_section(tuple,grupo,doc,filename):
         add_image(doc, imagename)
         write(doc, "ch", str(value), filename)
 
-def hacer_word(filename,todo_filename):
+def build_word(filename,todo_filename):
+    '''
+    This function will put it all together
+    :param filename:writes all in the docxs file name
+    :param todo_filename: list of instructions to do
+   
+    '''
     lista = os.listdir()
     tupla_imagenes = image_tuple_generator(lista)
     doc = docx.Document(filename)
@@ -37,4 +52,4 @@ def hacer_word(filename,todo_filename):
     doc.save(filename)
     print("Done! ")
 
-hacer_word(filename, todo_filename)
+build_word(filename, todo_filename)
